@@ -15,3 +15,4 @@ struct Films: Decodable {
 struct Category: Decodable {
     let results: [Films]
 }
+

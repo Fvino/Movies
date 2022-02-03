@@ -45,6 +45,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0012517C27ABB7DF00C1E4FD /* App */ = {
+			isa = PBXGroup;
+			children = (
+				3D6CC97B26AF2A3B00AC5CD2 /* AppDelegate.swift */,
+				3D6CC97D26AF2A3B00AC5CD2 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		0012517D27ABB7F500C1E4FD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3D6CC9D926B05B4A00AC5CD2 /* FilmsModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0012517E27ABB80600C1E4FD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3D6CC97F26AF2A3B00AC5CD2 /* ListViewController.swift */,
+				3D8ED9B426B1FFBA00D6FEA2 /* InformationFilmViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0012517F27ABB81C00C1E4FD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3D8ED9B226B1484200D6FEA2 /* ListTableViewCell.swift */,
+				3D8ED9B626B2B02800D6FEA2 /* InformationFilmViewCellTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		3D6CC96F26AF2A3B00AC5CD2 = {
 			isa = PBXGroup;
 			children = (
@@ -64,13 +99,10 @@
 		3D6CC97A26AF2A3B00AC5CD2 /* Movies */ = {
 			isa = PBXGroup;
 			children = (
-				3D6CC97B26AF2A3B00AC5CD2 /* AppDelegate.swift */,
-				3D6CC97D26AF2A3B00AC5CD2 /* SceneDelegate.swift */,
-				3D6CC9D926B05B4A00AC5CD2 /* FilmsModel.swift */,
-				3D6CC97F26AF2A3B00AC5CD2 /* ListViewController.swift */,
-				3D8ED9B226B1484200D6FEA2 /* ListTableViewCell.swift */,
-				3D8ED9B426B1FFBA00D6FEA2 /* InformationFilmViewController.swift */,
-				3D8ED9B626B2B02800D6FEA2 /* InformationFilmViewCellTableViewCell.swift */,
+				0012517C27ABB7DF00C1E4FD /* App */,
+				0012517D27ABB7F500C1E4FD /* Model */,
+				0012517E27ABB80600C1E4FD /* Controller */,
+				0012517F27ABB81C00C1E4FD /* View */,
 				3D6CC98126AF2A3B00AC5CD2 /* Main.storyboard */,
 				3D6CC98426AF2A3F00AC5CD2 /* Assets.xcassets */,
 				3D6CC98626AF2A3F00AC5CD2 /* LaunchScreen.storyboard */,
